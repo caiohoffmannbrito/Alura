@@ -1,9 +1,50 @@
 body{
-font-family: "Sour Gummy", sans-serif;
-background: aquamarine;
-color: black;
-margin: 0px;
-margin-bottom: 100px;
-}
-header{color: aliceblue;
-border-bottom: ;}
+    font-family: "Sour Gummy", sans-serif;
+    background: aquamarine;
+    color: black;
+    margin: 0px;
+    margin-bottom: 100px;
+    }
+    
+    header{color: aliceblue;
+    border-bottom: 3px solid black;
+    font-size: 32px;
+    padding: 15px;
+    }
+    
+    h1{
+        font-size: 35px;
+    }
+    
+    .chamada{
+        background: blue;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .chamada-texto{
+        margin-right: 5px;
+    }
+    .categoria{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+    
+    categoria-videos{
+        display: flex;
+        overflow: auto;
+        gap: 20px;
+    }
+    
+    .categoria-videos img{
+        height: 200px;
+        opacity: 0.5;
+    }
+    
+    .categoria-videos img:hover{
+        opacity: 1.0;
+        border: 3px solid pink;
+    }
